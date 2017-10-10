@@ -1,0 +1,5 @@
+d:\myconfiguration\pxy14077\documents\visual studio 2015\Projects\JeepGosh\JeepModel\bin\Debug\JeepModel.dll
+d:\myconfiguration\pxy14077\documents\visual studio 2015\Projects\JeepGosh\JeepModel\bin\Debug\JeepModel.pdb
+d:\myconfiguration\pxy14077\documents\visual studio 2015\Projects\JeepGosh\JeepModel\obj\Debug\JeepModel.csprojResolveAssemblyReference.cache
+d:\myconfiguration\pxy14077\documents\visual studio 2015\Projects\JeepGosh\JeepModel\obj\Debug\JeepModel.dll
+d:\myconfiguration\pxy14077\documents\visual studio 2015\Projects\JeepGosh\JeepModel\obj\Debug\JeepModel.pdb

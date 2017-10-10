@@ -1,0 +1,74 @@
+﻿
+
+@{
+    Layout = "~/Views/Shared/Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+<h2>人员列表</h2>
+
+<div>
+    <form action="/Home/DoSomething">
+        <input name="UserId" class="form-control col-xs-2" />
+        <br />
+        <button class="btn-primary btn" type="button" id="search">search</button>
+    </form>
+    <div id="res">
+        <p v-if="seen">
+            {{name}}
+        </p>
+    </div>
+    <br />
+    <div id="list">
+        <ol class="list-group">
+            <li v-for="u in users" class="list-group-item">
+                {{u.User}}
+            </li>
+        </ol>
+    </div>
+</div>
+<script>
+    $(function () {
+        $.ajax({
+            type: "get",
+            url: '@Url.Content("~/Home/GetList")',
+            success: function (data) {
+                debugger;
+                users.users = data.Users;
+            }
+        });
+        $('#search').click(function () {
+            debugger;
+            var id = $("input[name='UserId']").val();
+            $.ajax({
+                type: "post",
+                url: '@Url.Content("~/Home/DoSomething")',
+                data: { UserId: id },
+                success: function (data) {
+                    user.seen = data.Success;
+                    if (data.Success) {
+                        user.name = data.Data.User;
+                    }
+                    else {
+                        alert(data.Message);
+                    }
+                }
+            });
+        })
+    })
+    var user = new Vue({
+        el: '#res',
+        data: {
+            seen:false,
+            name:''
+        }
+    })
+    var users = new Vue({
+        el: '#list',
+        data: {
+            users:[]
+        }
+    })
+</script>
+
+
+

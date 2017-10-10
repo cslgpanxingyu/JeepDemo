@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeepGosh", "JeepGosh\JeepGosh.csproj", "{F6F03AF4-4319-4956-B21A-CF4B40682020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeepModel", "JeepModel\JeepModel.csproj", "{AB185B9D-0CC3-49B0-80F4-987199F9821A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6F03AF4-4319-4956-B21A-CF4B40682020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F03AF4-4319-4956-B21A-CF4B40682020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F03AF4-4319-4956-B21A-CF4B40682020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F03AF4-4319-4956-B21A-CF4B40682020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB185B9D-0CC3-49B0-80F4-987199F9821A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB185B9D-0CC3-49B0-80F4-987199F9821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB185B9D-0CC3-49B0-80F4-987199F9821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB185B9D-0CC3-49B0-80F4-987199F9821A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
